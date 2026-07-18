@@ -1,8 +1,8 @@
 cask "shellboss" do
-    version "0.7.3"
-    sha256 "df5af59b953917f5e67d248cc109d2fc2a064ef26a9b59afdb7013215d603211"
+    version "0.7.4"
+    sha256 "e6af51fea14396f452a56c3c64e84472f406ec3824de765bc17505cf336250d1"
 
-    url "https://github.com/nikolainobadi/homebrew-nn/releases/download/shellboss-0.7.3/ShellBoss.dmg"
+    url "https://github.com/nikolainobadi/homebrew-nn/releases/download/shellboss-0.7.4/ShellBoss.dmg"
     name "ShellBoss"
     desc "A macOS terminal app with tabs, todos, and MCP integration"
     homepage "https://github.com/nikolainobadi/ShellBoss"
