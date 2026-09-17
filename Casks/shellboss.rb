@@ -1,16 +1,27 @@
 cask "shellboss" do
-    version "0.9.0"
-    sha256 "88f57c0e878ef14c78cb6605d91ca773d6f5c0affca1edf88bfcf735800cf225"
+    version "0.10.0"
+    sha256 "8f193d22e4cd94b03040a2e24600e1b0242d0fc7f77ada0b08fa10462ac7cbb4"
 
-    url "https://github.com/nikolainobadi/homebrew-nn/releases/download/shellboss-0.9.0/ShellBoss.dmg"
+    url "https://github.com/nikolainobadi/homebrew-nn/releases/download/shellboss-0.10.0/ShellBoss-0.10.0.dmg"
     name "ShellBoss"
-    desc "A macOS terminal app with tabs, todos, and MCP integration"
+    desc "macOS terminal to help with AI context switching"
     homepage "https://github.com/nikolainobadi/ShellBoss"
 
     livecheck do
         url :url
-        strategy :github_latest
+        regex(/^shellboss-(\d+(?:\.\d+)+)$/i)
+        strategy :github_releases
     end
 
+    depends_on macos: :tahoe
+
     app "ShellBoss.app"
+
+    zap trash: [
+        "~/Library/Preferences/com.nobadi.ShellBoss.plist",
+        "~/Library/Caches/com.nobadi.ShellBoss",
+        "~/Library/Application Support/ShellBoss",
+        "~/Library/Saved Application State/com.nobadi.ShellBoss.savedState",
+        "~/Library/Containers/com.nobadi.ShellBoss",
+    ]
 end
