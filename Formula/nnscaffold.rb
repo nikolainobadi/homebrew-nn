@@ -1,18 +1,18 @@
 class Nnscaffold < Formula
   desc "Deterministic code generation for swift projects"
   homepage "https://github.com/nikolainobadi/nnscaffold-releases"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolainobadi/nnscaffold-releases/releases/download/0.10.0/nnscaffold-arm64.tar.gz"
-      sha256 "fa1f291576418e0dfb8c5211f0b57bbb562702c0a09fad045cdc7732e7a22208"
+      url "https://github.com/nikolainobadi/nnscaffold-releases/releases/download/0.10.1/nnscaffold-arm64.tar.gz"
+      sha256 "d1468ef6990b1f51a77a2999dc173b2eedb19a9459276bcbdc1150435093dca7"
     end
 
     on_intel do
-      url "https://github.com/nikolainobadi/nnscaffold-releases/releases/download/0.10.0/nnscaffold-x86_64.tar.gz"
-      sha256 "82451f065792206fa406d78d60d88500a08ad011803ba9b07066701f466ea292"
+      url "https://github.com/nikolainobadi/nnscaffold-releases/releases/download/0.10.1/nnscaffold-x86_64.tar.gz"
+      sha256 "6340ab6653c8d442c7a166e92d97e7622b1880e98264a0ddc0373aac8b48fa02"
     end
   end
 
