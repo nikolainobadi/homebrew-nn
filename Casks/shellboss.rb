@@ -1,8 +1,8 @@
 cask "shellboss" do
-  version "0.11.2"
-  sha256 "5ad6b789c770bce756337e75bea3aaf7599a77482fb9afa6d0143e20f605f992"
+  version "0.11.3"
+  sha256 "6f475c5a23fa3d61deb919a5e793f473bc5012b5f57fb97917513f1da529e9c6"
 
-  url "https://github.com/nikolainobadi/ShellBoss-releases/releases/download/0.11.2/ShellBoss-0.11.2.zip"
+  url "https://github.com/nikolainobadi/ShellBoss-releases/releases/download/0.11.3/ShellBoss-0.11.3.zip"
   name "ShellBoss"
   desc "Tabbed terminal with per-tab todos, saved files and Claude Code integration"
   homepage "https://github.com/nikolainobadi/ShellBoss-releases"
