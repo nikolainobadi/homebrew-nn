@@ -1,18 +1,18 @@
 class Nngit < Formula
   desc "Simpler Git commands with safety checks, AI commit messages, and repo activity"
   homepage "https://github.com/nikolainobadi/nngit-releases"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolainobadi/nngit-releases/releases/download/0.1.0/nngit-arm64.tar.gz"
-      sha256 "cb2572772040f52fbe2376cf481172b9d155b3592f1f8f1f6d2863dab9310e51"
+      url "https://github.com/nikolainobadi/nngit-releases/releases/download/0.2.0/nngit-arm64.tar.gz"
+      sha256 "179f6efc2102bd099a57a3fc4793645826a7de9eebd9db4dc8a3cf4cc9b9a64f"
     end
 
     on_intel do
-      url "https://github.com/nikolainobadi/nngit-releases/releases/download/0.1.0/nngit-x86_64.tar.gz"
-      sha256 "9cc8ad595f3493b1d54fd148523fd07dc320ea4296c291b9c32c10971656fb8b"
+      url "https://github.com/nikolainobadi/nngit-releases/releases/download/0.2.0/nngit-x86_64.tar.gz"
+      sha256 "ebd12bab3fa73d4c2e43f6af3ddb612f52b89ebaca40a37e5f68a3f358e56fe8"
     end
   end
 
