@@ -1,18 +1,18 @@
 class Nnex < Formula
   desc "Release automation for Swift libraries, CLI tools, macOS apps, and iOS apps"
   homepage "https://github.com/nikolainobadi/nnex-releases"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nikolainobadi/nnex-releases/releases/download/0.2.0/nnex-arm64.tar.gz"
-      sha256 "d368988c2bf66b6afc9e300b86c3e2a762a5b3d390c011f7759c1b2f10e358b5"
+      url "https://github.com/nikolainobadi/nnex-releases/releases/download/0.3.0/nnex-arm64.tar.gz"
+      sha256 "43aabab3d00bc2adbb2752739cf42fff3611859f0a1d090f16c596606c144620"
     end
 
     on_intel do
-      url "https://github.com/nikolainobadi/nnex-releases/releases/download/0.2.0/nnex-x86_64.tar.gz"
-      sha256 "5818077061f3259a90187a744cb2b1db13ab12093f0a9074c3e1ace222f20ebf"
+      url "https://github.com/nikolainobadi/nnex-releases/releases/download/0.3.0/nnex-x86_64.tar.gz"
+      sha256 "37421b2bc22dd50de1023f1576e1b84be97b06c2a6686f3e75faebab8b49c20e"
     end
   end
 
